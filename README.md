@@ -16,3 +16,14 @@ You are given two positive integers a and b (a < b <= 20000). Complete the funct
 Given two integers m, n (1 <= m <= n) we want to find all integers between m and n whose sum of squared divisors is itself a square. 42 is such a number.
 
 The result will be an array of arrays or of tuples (in C an array of Pair) or a string, each subarray having two elements, first the number whose squared divisors is a square and then the sum of the squared divisors.
+
+## Task 5
+The number 89 is the first integer with more than one digit that fulfills the property partially introduced in the title of this kata. What's the use of saying "Eureka"? Because this sum gives the same number.
+
+In effect: 89 = 8^1 + 9^2
+
+The next number in having this property is 135.
+
+See this property again: 135 = 1^1 + 3^2 + 5^3
+
+We need a function to collect these numbers, that may receive two integers a, b that defines the range [a, b] (inclusive) and outputs a list of the sorted numbers in the range that fulfills the property described above.
