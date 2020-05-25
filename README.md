@@ -1,5 +1,5 @@
 # PythonRevision
-### Doing code wars practice to remind me of python syntax and operators.
+### Doing code wars practice refamiliarize myslef python syntax and operators.
 
 ## Task 1
 A string is considered to be in title case if each word in the string is either (a) capitalised (that is, only the first letter of the word is in upper case) or (b) considered to be an exception and put entirely into lower case unless it is the first word, which is always capitalised.
